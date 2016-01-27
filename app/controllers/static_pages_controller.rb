@@ -6,6 +6,7 @@ class StaticPagesController < ApplicationController
     	@response = @string.show_answer
     else
       @response = "where was our first date?"
+      @response = "where was our first trip?"
   end
 end
 
