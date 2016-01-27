@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
     	@string.array_counter
     	@response = @string.show_answer
     else
-      @response = "where was our first date?""
+      @response = "where was our first date?
   end
 end
 
