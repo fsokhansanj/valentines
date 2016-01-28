@@ -8,8 +8,8 @@ class StringManipulator
 		text_to_array
 		@array_of_answers = Array.new
 		@correct_answers = {
-			'dana_point' => 'Good job! Second question. On what holiday was our first date?',
-			'valentines' => 'Correct again, but that was easy.'
+			'danapoint' => 'It was memorable for me too #iphoneshower. What about our first date?',
+			'figuerobistrot' => 'Yup! That was the first time I fell for squirrel hands. I love hearing about your history. What's my favorite story from your time in DC.'
 		}
 	end
 
