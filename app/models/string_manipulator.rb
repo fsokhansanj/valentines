@@ -1,13 +1,15 @@
 class StringManipulator
-
-	attr_accessor :user_submitted_string, :array_of_words
-	
-	def initialize(string)
-		@user_submitted_string = string
-		@fucks_given = 0
-		text_to_array
-		@array_of_answers = Array.new
-		@correct_answers = {
+  
+ -	attr_accessor :user_submitted_string, :array_of_words, :fucks_given
+ -
+ +	attr_accessor :user_submitted_string, :array_of_words
+ +	
+  	def initialize(string)
+  		@user_submitted_string = string
+  		@fucks_given = 0
+  		text_to_array
+  		@array_of_answers = Array.new
+  		@correct_answers = {
 			'danapoint' => 'It was memorable for me too #iphoneshower. What about our first date?',
 			'figuerobistrot' => 'Yup! That was the first time I fell for squirrel hands. I love hearing about your history. What's my favorite story from your time in DC.'
 		}
